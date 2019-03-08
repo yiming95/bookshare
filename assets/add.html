@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>add book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">   
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link href="justified-nav.css" rel="stylesheet">
+    <link href="basic.css" rel="stylesheet">
+    <link href="dropzone.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="dropzone.js"></script>
+</head>
+
+ <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="bookshelf.html">Home</a></li>
+            <li role="presentation"><a href="#">User</a></li>
+            <li role="presentation"><a href="#">Log Out</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">UBOOK</h3>
+      </div>
+ <section>
+<style>
+#try-it-out{
+	color:#1e90ff;
+}
+</style>
+  <h3 id="try-it-out">Upload picture  <button class="btn btn-small btn-success" type="submit" onClick="window.open('request.html','_self')">apply</button> </h3>
+
+  <div id="dropzone"><form action="/upload" class="dropzone needsclick" id="demo-upload">
+
+  <div class="dz-message needsclick">
+    Drop files here or click to upload.
+  </div>
+  
+</form></div>
+
+  <img style = "margin-left:  10px" width = "80" height = "80" src="camera1.png"> 
+  <button class="btn btn-small btn-primary" type="submit" >take snapshot</button>
+  <button class="btn btn-small btn-success" type="submit" onClick="window.open('request.html','_self')">apply</button>
+</section>
+
+  <footer class="footer">
+      <p>&copy; Andrew GRP group</p>
+  </footer>
+
+
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

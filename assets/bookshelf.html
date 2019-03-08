@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bookshelf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">   
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link href="justified-nav.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+</head>
+
+ <body>
+ 
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="bookshelf.html" target = '_self'>Home</a></li>
+            <li role="presentation"><a href="#">User</a></li>
+            <li role="presentation"><a href="#">Log Out</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">UBOOK</h3>
+      </div>
+
+      <div class="jumbotron" style="background-image:url(book2.jpg);background-repeat:no repeat;background-size:cover;">
+        <h1>My bookshelf</h1>
+        <p class="lead">Here is your personal bookshelf.</p>
+        <p><a class="btn btn-lg btn-success" href="add.html" target = '_self' role="button">Add new book</a></p>
+        <form class="navbar-form navbar-right">
+         <input type="text" class="form-control" placeholder="Search...">
+         <button class="btn-primary" type="submit" onClick="window.open('request.html')">apply</button>
+        </form>
+
+       </div>
+    <br/><br/>
+    <div class="row">
+        <div class="col-lg-4">
+          <h2>My books</h2>
+          <p class="text-danger">All of your books.</p>
+          <img style = "margin-left:  10px" width = "90" height = "140" src="p1.jpg">
+          <img style = "margin-left:  10px" width = "90" height = "140" src="p2.jpg">
+          <img style = "margin-left:  10px" width = "90" height = "140" src="p3.jpg">
+          <br/><br/>
+          <p><a class="btn btn-primary" href="userbook_status.html" target = '_self' role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Borrowed</h2>
+          <p>Borrowed books. </p>
+          <img style = "margin-left:  10px" width = "90" height = "140" src="p2.jpg">
+          <br/><br/>
+          <p><a class="btn btn-primary" href="userbook_status.html" target = '_self' role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>On loan</h2>
+          <p> Books on loan.</p>
+          <img style = "margin-left:  10px" width = "90" height = "140" src="p3.jpg">
+          <br/><br/>
+          <p><a class="btn btn-primary" href="userbook_status.html" target = '_self' role="button">View details &raquo;</a></p>
+        </div>
+      </div>      
+
+      <footer class="footer">
+        <p>&copy; Andrew GRP group</p>
+      </footer>
+
+  </div>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+</body>
+</html>
