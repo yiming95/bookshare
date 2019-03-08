@@ -11,8 +11,11 @@ The breif introduction of the project.
  The website would allow users to log their books as an online library, 
  they would then be able to easily search through their own books 
  and others in the area to find books on a particular subject. 
+ 
  Users can add books to their library by taking a picture of the cover and then the system finds the book online, 
- or alternatively, we provided a less high tech but more reliable option for the user to simply type in the name of the book. 
+ or alternatively, we provided a less high tech but more reliable option 
+ for the user to simply type in the name of the book. 
+ 
  We have connected to Google books to take advantage of their search algorithms and wealth of knowledge, 
  both in terms of the breadth of their library and the detailed information that they have on each book.
  
